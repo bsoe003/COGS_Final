@@ -2,12 +2,26 @@
  min-height:100%;
 }*/
 
-.leftMargin {
+
+#currentEvents {
+  text-indent:175px;
+}
+
+.leftMarginInformation {
   float: left;
   width: 500px;
 }
-.leftMargin h1 {
-  
+.leftMargin {
+  float: left;
+  width: 25px;
+  height: 100%;
+}
+#topHotels {
+}
+
+.rightMargin {
+  float: right;
+  width: 500px;
 }
 
 .margins {
