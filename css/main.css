@@ -1,6 +1,18 @@
-.blahblah{
+/*.blahblah{
  min-height:100%;
+}*/
+
+.margins {
+  padding-left:500px;
+  padding-right:150px;
 }
+
+.margins .tourism {
+  padding-left:500px;
+  padding-right:150px;
+}
+
+
 .footer-section{
   margin-bottom:30px;
 }
@@ -302,7 +314,7 @@ overflow: hidden;
 
 @media (min-width: 768px) {
 
-  /* Remve the edge padding needed for mobile */
+  /* Remove the edge padding needed for mobile */
   .marketing {
     padding-top:20px;
   }
@@ -311,7 +323,7 @@ overflow: hidden;
     padding-bottom:25px;
   }
 
-  /* Navbar positioning foo */
+  /* Navbar positioning */
   .navbar-wrapper {
     margin-top: 20px;
     margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
