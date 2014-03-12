@@ -253,14 +253,24 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<!-- Breadcrumbs -->
+<ol class="breadcrumb">
+  <li><a href="index.html">Home</a></li>
+  <li class="active">Foodies</li>
+</ol>
+
+<!-- End breadcrumbs -->
+
 <!-- Thumbnails -->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <div class="row">
-  <div class="col-sm-6 col-md-4">
+  <div class="margins">
+
+  <div class="col-sm-6 col-md-4 thumbnail_margin">
     <div class="thumbnail">
       <img src="img/Cable_Cars_San_Francisco_Tourism.jpg" alt="...">
       <div class="caption">
-        <h3>Thumbnail label</h3>
+        <h3>Top Rated Restaurants</h3>
         <p>...</p>
         <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> 
       </div>
@@ -268,9 +278,9 @@
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img data-src="holder.js/300x200" alt="...">
+      <img src="img/template_image.jpg" alt="...">
       <div class="caption">
-        <h3>Thumbnail label</h3>
+        <h3> Restaurant by Categories </h3>
         <p>...</p>
         <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
       </div>
@@ -278,55 +288,102 @@
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img data-src="holder.js/300x200" alt="...">
+      <img src="img/template_image.jpg" alt="...">
       <div class="caption">
-        <h3>Thumbnail label</h3>
+        <h3> Restaurant by Cheapest Price</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/template_image.jpg" alt="...">
+      <div class="caption">
+        <h3> Restaurant by Cheapest Price</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/template_image.jpg" alt="...">
+      <div class="caption">
+        <h3> Restaurant by Cheapest Price</h3>
         <p>...</p>
         <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
       </div>
     </div>
   </div>
 </div>
+</div>
+
+<div class="row">
+  <div class="margins">
+
+  <div class="col-sm-6 col-md-4 thumbnail_margin">
+    <div class="thumbnail">
+      <img src="img/Cable_Cars_San_Francisco_Tourism.jpg" alt="...">
+      <div class="caption">
+        <h3> Family Friendly Restaurants </h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> 
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/template_image.jpg" alt="...">
+      <div class="caption">
+        <h3> Restaurants for couples </h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/template_image.jpg" alt="...">
+      <div class="caption">
+        <h3> Restaurants for couples </h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/template_image.jpg" alt="...">
+      <div class="caption">
+        <h3> Restaurant by Cheapest Price</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/template_image.jpg" alt="...">
+      <div class="caption">
+        <h3> Restaurant by Cheapest Price</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<br></br><br></br><br></br
+
 
 <!-- End first Thumbnails -->
 
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-<!-- Thumbnails -->
-<div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x200" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x200" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img data-src="holder.js/300x200" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <!-- End second Thumbnails -->
 
