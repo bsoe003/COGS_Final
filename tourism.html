@@ -15,7 +15,7 @@
     <!-- Add custom CSS here -->
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
-    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+
 
 
 </head>
@@ -266,7 +266,7 @@
 </div>
 <div class="leftMarginInformation">
   
-  <p id="topHotels"> Top Hotels </p>
+  <!-- <p id="topHotels"> Top Hotels </p> -->
   <a class="fancybox" rel="group" href="img/map_big.png"><img src="img/map_small.jpg" alt="broken" /></a>
   <!-- <ol>
     <li> Number One Hotel </li>
@@ -279,11 +279,12 @@
 
 <!-- Thumbnails -->
 <br><br><br>
+<!-- Old thumbnails
 <div class="row">
   <div class="margins">
 
   <div class="col-sm-6 col-md-4 thumbnail_margin">
-    <div class="thumbnail">
+     <div class="thumbnail"> 
       <img src="img/alcatraz.jpg" alt="...">
       <div class="caption">
         <h3>Sightseeing</h3>
@@ -294,7 +295,7 @@
     </div>
   </div>
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+     <div class="thumbnail"> 
       <img src="img/aquarium_small.jpg" alt="...">
       <div class="caption">
         <h3>Family Activities</h3>
@@ -305,7 +306,7 @@
     </div>
   </div>
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+     <div class="thumbnail"> 
       <img src="img/Cable_Cars_San_Francisco_Tourism.jpg" alt="...">
       <div class="caption">
         <h3>Special Events</h3>
@@ -316,23 +317,95 @@
     </div>
   </div>
 </div>
+</div> -->
+
+<div id="hotels" class="category">
+  <h2>Top Hotels</h2>
+  <div class="cat-cont">
+    <table>
+      <tr>
+        <td class="dt-pic"><img src="img/toronado.jpg" alt="Toronado"/></td>
+        <td class="dt-pic"><img src="img/smuggler-s-cove.jpg" alt="Smuggler's Cove"/></td>
+        <td class="dt-pic"><img src="img/saloon.jpg" alt="Saloon"/></td>
+      </tr>
+      <tr>
+        <td class="designed-thumbnail"><h6>Toronado</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/><p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>Smuggler's Cove</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>The Saloon</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+      </tr>
+    </table>
+  </div>
 </div>
 
+<div id ="sightseeing" class="category">
+  <h2>Sightseeing</h2>
+  <div class="cat-cont">
+    <table>
+      <tr>
+        <td class="dt-pic"><img src="img/excellent.jpg" alt="Biscuits and Blues"/></td>
+        <td class="dt-pic"><img src="img/rrazz-room.jpg" alt="Rrazz Room"/></td>
+        <td class="dt-pic"><img src="img/pier23.jpg" alt="Pier 23"/></td>
+      </tr>
+      <tr>
+        <td class="designed-thumbnail"><h6>Biscuits and Blues</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/><p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>Rrazz Room</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>Pier 23</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+      </tr>
+       <tr>
+        <td class="dt-pic"><img src="img/toronado.jpg" alt="Toronado"/></td>
+        <td class="dt-pic"><img src="img/smuggler-s-cove.jpg" alt="Smuggler's Cove"/></td>
+        <td class="dt-pic"><img src="img/saloon.jpg" alt="Saloon"/></td>
+      </tr>
+      <tr>
+        <td class="designed-thumbnail"><h6>Toronado</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/><p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>Smuggler's Cove</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>The Saloon</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div id="family" class="category">
+  <h2>Family Activities</h2>
+  <div class="cat-cont">
+    <table>
+      <tr>
+        <td class="dt-pic"><img src="img/bimbos_365_club.jpg" alt="Biscuits and Blues"/></td>
+        <td class="dt-pic"><img src="img/rrazz-room.jpg" alt="Rrazz Room"/></td>
+        <td class="dt-pic"><img src="img/pier23.jpg" alt="Pier 23"/></td>
+      </tr>
+      <tr>
+        <td class="designed-thumbnail"><h6>Bimbo’s 365 Club</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/><p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>Shutter</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>Butter</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div id="special" class="category">
+  <h2>Special Events</h2>
+  <div class="cat-cont">
+    <table>
+      <tr>
+        <td class="dt-pic"><img src="img/bimbos_365_club.jpg" alt="Biscuits and Blues"/></td>
+        <td class="dt-pic"><img src="img/rrazz-room.jpg" alt="Rrazz Room"/></td>
+        <td class="dt-pic"><img src="img/pier23.jpg" alt="Pier 23"/></td>
+      </tr>
+      <tr>
+        <td class="designed-thumbnail"><h6>Bimbo’s 365 Club</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/><p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>Shutter</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+        <td class="designed-thumbnail"><h6>Butter</h6><p>&bull; Rating: xxxxx<br/>&bull; Price: xxxxx<br/></p><a href="#" class="btn btn-default" role="button">Click Here for Details</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
 
 <!-- End first Thumbnails -->
 <div class="leftMargin">
 <p>
 </p>
 </div>
-<div class="funFacts">
-    <p> Fun Facts </p>
-    <ul>
-      <li> Fun Fact #1 </li> 
-      <li> Fun Fact #2 </li>
-      <li> Fun Fact #3 </li>
-      <li> Fun Fact #4 </li>
-    </ul>
-  </div>
 <div class="transport">
   <p> Transportation Routes </p>
   <ul>
@@ -515,7 +588,7 @@
 
 </footer> 
 
-
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery.magnific-popup.js"></script>
 <script src="js/project.js"></script>

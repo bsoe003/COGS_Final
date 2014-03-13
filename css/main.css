@@ -1,4 +1,22 @@
+#hotels {
+  padding-top: 60px;
+    margin-top: -60px;
+}
 
+#sightseeing {
+  padding-top: 60px;
+    margin-top: -60px;
+}
+
+#family {
+  padding-top: 60px;
+    margin-top: -60px;
+}
+
+#special {
+  padding-top: 60px;
+    margin-top: -60px;
+}
 
 .sightseeing {
   margin-left: 16%;
