@@ -5823,4 +5823,69 @@ button.close {
   width: 200px;
   border: white solid 1px;
 }
+
+.category
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  display: inline-block;
+}
+
+.category>h2
+{
+  font-weight: 700;
+  width: 100%;
+  padding: 3px 3px 3px 3px;
+  border-bottom: 5px solid #363636;
+}
+
+.designed-thumbnail
+{
+  padding: 5px 5px 5px 5px;
+}
+
+.designed-thumbnail>h6
+{
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff6c00;
+}
+
+.designed-thumbnail>p
+{
+  padding-left: 10px;
+}
+
+.dt-pic
+{
+  text-align: center;
+}
+
+.dt-pic>img
+{
+  margin: 5px 5px 5px 5px;
+  min-height: 75px;
+  width: 85%;
+  max-width: 300px;
+}
+
+table
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row>img
+{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-format>img
+{
+  margin-left: 5px;
+  margin-right: 5px; 
+}
 /*# sourceMappingURL=bootstrap.css.map */
