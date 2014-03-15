@@ -87,6 +87,8 @@
 
 .footer-section{
   margin-bottom:30px;
+  list-style: none;
+  padding: 0;
 }
 .jumbotron-spacing{
   margin-bottom: 20px;

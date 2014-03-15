@@ -4774,6 +4774,7 @@ a.list-group-item-danger.active:focus {
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  width: 90%;
 }
 .panel-body {
   padding: 15px;
@@ -5882,7 +5883,7 @@ button.close {
   min-height: 75px;
 
   width: 90%;
-  max-width: 250px;
+  max-width: 300px;
 }
 
 table
@@ -5930,4 +5931,8 @@ table
   padding-bottom: 30px;
 }
 
+.wrapper
+{
+  padding-left: 9%;
+}
 /*# sourceMappingURL=bootstrap.css.map */
