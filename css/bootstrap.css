@@ -5879,11 +5879,15 @@ button.close {
 
 .dt-pic>img
 {
+  position: relative;
   margin: 5px 5px 5px 5px;
-  min-height: 75px;
-
+  width: 300px;
+  height: 200px;
+  /*min-height: 75px;
   width: 90%;
-  max-width: 300px;
+  max-width: 300px;*/
+  overflow: hidden;
+  clip: rect(0,10px,0,10px);
 }
 
 table
