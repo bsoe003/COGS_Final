@@ -314,7 +314,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 .img-rounded {
   border-radius: 6px;
@@ -4414,6 +4414,8 @@ a.list-group-item.active > .badge,
   }
 }
 .thumbnail {
+  margin-left: 5px;
+  margin-right: 5px;
   display: block;
   padding: 4px;
   margin-bottom: 20px;
@@ -4428,6 +4430,9 @@ a.list-group-item.active > .badge,
 .thumbnail a > img {
   margin-right: auto;
   margin-left: auto;
+  width: 250px;
+  height: 150px;
+  overflow: hidden;
 }
 a.thumbnail:hover,
 a.thumbnail:focus,
@@ -5938,5 +5943,10 @@ table
 .wrapper
 {
   padding-left: 9%;
+}
+
+.for-centering
+{
+  padding-left: 20%;
 }
 /*# sourceMappingURL=bootstrap.css.map */
