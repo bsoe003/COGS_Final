@@ -5945,8 +5945,16 @@ table
   padding-left: 9%;
 }
 
-.for-centering
+.brand
 {
   padding-left: 20%;
+  padding-right: 20%;
 }
+
+.brand>h2
+{
+  font-weight: 700;
+  color: #ff6c00;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
